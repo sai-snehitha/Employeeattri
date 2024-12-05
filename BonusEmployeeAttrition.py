@@ -136,7 +136,7 @@ elif options == "Employee Details":
     st.markdown("Search for an employee by their ID and view all available details.")
 
     # Input for employee search
-    emp_id = st.text_input("Enter Employee ID(Ex: E00001, E00002...")
+    emp_id = st.text_input("Enter Employee ID(Ex: E00001, E00002...)")
 
     query = f"""
     SELECT 
